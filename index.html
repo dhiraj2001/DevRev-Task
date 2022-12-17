@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href=" https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+    <title>Libray</title>
+</head>
+<body>
+    <div class="row">
+        <a><h1 id="head">Welcome to library</h1></a>
+    </div>
+    <div class="container">
+        <h2>"Libraries store the energy that fuels the imagination.
+             They open up windows to the world and inspire us to explore and achieve, 
+             and contribute to improving our quality of life."</h2>
+    </div>
+    <hr>
+
+    <div class="container">
+    <div class="row">
+        <table id="example" class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Serial Number</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">Author</th>
+                  <th scope="col">Subject</th>
+                  <th scope="col">Publish Date</th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>1</td>
+                      <td>Senior Marketing Designer</td>
+                      <td>Sane Guruji</td>
+                      <td>System Architect</td>
+                      <td>2011-04-25</td>
+                      <td>300</td>
+                  </tr>
+                  <tr>
+                      <td>2</td>
+                      <td>Accountant</td>
+                      <td>John Green</td>
+                      <td>Accountant</td>
+                      <td>2011-07-25</td>
+                      <td>150</td>
+                  </tr>
+                  <tr>
+                      <td>3</td>
+                      <td>Senior Marketing Designer</td>
+                      <td>Mark Manson</td>
+                      <td>Junior Technical Author</td>
+                      <td>2009-01-12</td>
+                      <td>800</td>Accountant
+                  </tr>
+                  <tr>
+                      <td>4</td>
+                      <td>Engineer</td>
+                      <td>Sane Guruji</td>
+                      <td>Senior Information technology</td>
+                      <td>2012-03-29</td>
+                      <td>460</td>
+                  </tr>
+                  <tr>
+                      <td>5</td>
+                      <td>Software Engineering</td>
+                      <td>John Green</td>
+                      <td>Accountant</td>
+                      <td>2008-11-28</td>
+                      <td>1600</td>
+                  </tr>
+                  <tr>
+                      <td>6</td>
+                      <td>Engineering</td>
+                      <td>Dan Brown</td>
+                      <td>Accountant</td>
+                      <td>2012-12-02</td>
+                      <td>300</td>
+                  </tr>
+                  <tr>
+                      <td>7</td>
+                      <td>Computer Engineering</td>
+                      <td>Mark Manson</td>
+                      <td>Computer Networks</td>
+                      <td>2012-08-06</td>
+                      <td>137</td>
+                  </tr>
+                  <tr>
+                      <td>8</td>
+                      <td>Engineering</td>
+                      <td>John Green</td>
+                      <td>Computer Networks</td>
+                      <td>2010-10-14</td>
+                      <td>300</td>
+                  </tr>
+                  <tr>
+                      <td>9</td>
+                      <td>Information technology</td>
+                      <td>Mark Manson</td>
+                      <td>Computer Networks</td>
+                      <td>2009-09-15</td>
+                      <td>205</td>
+                  </tr>
+                  <tr>
+                      <td>10</td>
+                      <td>Software Engineer</td>
+                      <td>Sane Guruji</td>
+                      <td>Compiler Design</td>
+                      <td>2008-12-13</td>
+                      <td>100</td>
+                  </tr>
+                  <tr>
+                      <td>11</td>
+                      <td>Information technology</td>
+                      <td>Arundhati Roy</td>
+                      <td>Data Structures</td>
+                      <td>2008-12-19</td>
+                      <td>960</td>
+                  </tr>
+                  <tr>
+                      <td>12</td>
+                      <td>ENTC Engineering</td>
+                      <td>Sane Guruji</td>
+                      <td>Compiler Design</td>
+                      <td>2013-03-03</td>
+                      <td>300</td>
+                  </tr>
+                  <tr>
+                      <td>13</td>
+                      <td>Software Engineering</td>
+                      <td>Mark Manson</td>
+                      <td>Discrete Structures</td>
+                      <td>2008-10-16</td>
+                      <td>600</td>
+                  </tr>
+                  <tr>
+                      <td>14</td>
+                      <td>Senior Marketing Designer</td>
+                      <td>Arundhati Roy</td>
+                      <td>Discrete Structures</td>
+                      <td>2012-12-18</td>
+                      <td>313</td>
+                  </tr>
+                  <tr>
+                      <td>15</td>
+                      <td>Software Engineering</td>
+                      <td>Arundhati Roy</td>
+                      <td>Data Structures</td>
+                      <td>2010-03-17</td>
+                      <td>380</td>
+                  </tr>
+                  <tr>
+                      <td>16</td>
+                      <td>Marketing Designer</td>
+                      <td>Arundhati Roy</td>
+                      <td>Data Structures</td>
+                      <td>2012-11-27</td>
+                      <td>198</td>
+                  </tr>
+                  <tr>
+                      <td>17</td>
+                      <td>Chief Financial Officer (CFO)</td>
+                      <td>Dan Brown</td>
+                      <td>Junior Technical Author</td>
+                      <td>2010-06-09</td>
+                      <td>720</td>
+                  </tr>
+                  <tr>
+                      <td>18</td>
+                      <td>Systems Administrator</td>
+                      <td>Dan Brown</td>
+                      <td>Computer Networks</td>
+                      <td>2009-04-10</td>
+                      <td>237</td>
+                  </tr>
+                  <tr>
+                      <td>19</td>
+                      <td>Software Engineer</td>
+                      <td>Arundhati Roy</td>
+                      <td>Data Science</td>
+                      <td>2012-10-13</td>
+                      <td>130</td>
+                  </tr>
+                  <tr>
+                      <td>20</td>
+                      <td>Personnel Lead</td>
+                      <td>Sane Guruji</td>
+                      <td>Data Science</td>
+                      <td>2012-09-26</td>
+                      <td>217</td>
+                  </tr>
+                  <tr>
+                      <td>21</td>
+                      <td>Development Lead</td>
+                      <td>Dan Brown</td>
+                      <td>Big Data</td>
+                      <td>2011-09-03</td>
+                      <td>360</td>
+                  </tr>
+                  <tr>
+                      <td>22</td>
+                      <td>Chief Marketing Officer </td>
+                      <td>Dan Brown</td>
+                      <td>Machine Learning</td>
+                      <td>2009-06-25</td>
+                      <td>640</td>
+                  </tr>
+                  <tr>
+                      <td>23</td>
+                      <td>Pre-Sales Support</td>
+                      <td>Dan Brown</td>
+                      <td>21</td>
+                      <td>2011-12-12</td>
+                      <td>100</td>
+                  </tr>
+                  <tr>
+                      <td>24</td>
+                      <td>Computer Engineering</td>
+                      <td>Alice Walker</td>
+                      <td>Compiler Design</td>
+                      <td>2010-09-20</td>
+                      <td>800</td>
+                  </tr>
+                  <tr>
+                      <td>25</td>
+                      <td>Chief Executive Officer (CEO)</td>
+                      <td>Arundhati Roy</td>
+                      <td>47</td>
+                      <td>2009-10-09</td>
+                      <td>100</td>
+                  </tr>
+                  <tr>
+                      <td>26</td>
+                      <td>Developer</td>
+                      <td>Sane Guruji</td>
+                      <td>Deep Learning</td>
+                      <td>2010-12-22</td>
+                      <td>925</td>
+                  </tr>
+                  <tr>
+                      <td>27</td>
+                      <td>Software Engineering</td>
+                      <td>Kiran Desai</td>
+                      <td>Data Science</td>
+                      <td>2010-11-14</td>
+                      <td>350</td>
+                  </tr>
+                  <tr>
+                      <td>28</td>
+                      <td>Software Engineer</td>
+                      <td>Mark Manson</td>
+                      <td>Data Science</td>
+                      <td>2011-06-07</td>
+                      <td>200</td>
+                  </tr>
+                  <tr>
+                      <td>29</td>
+                      <td>Chief Operating Officer (COO)</td>
+                      <td>Mark Manson</td>
+                      <td>Data Science</td>
+                      <td>2010-03-11</td>
+                      <td>850</td>
+                  </tr>
+                  <tr>
+                      <td>30</td>
+                      <td>Regional Marketing</td>
+                      <td>John Green</td>
+                      <td>Maths</td>
+                      <td>2011-08-14</td>
+                      <td>100</td>
+                  </tr>
+                  <tr>
+                      <td>31</td>
+                      <td>Engineering</td>
+                      <td>Alice Walker</td>
+                      <td>Physics</td>
+                      <td>2011-06-02</td>
+                      <td>900</td>
+                  </tr>
+                  <tr>
+                      <td>32</td>
+                      <td>Developer</td>
+                      <td>Arundhati Roy</td>
+                      <td>Physics</td>
+                      <td>2009-10-22</td>
+                      <td>114</td>
+                  </tr>
+                  <tr>
+                      <td>33</td>
+                      <td>Technical Author</td>
+                      <td>Arundhati Roy</td>
+                      <td>IOT</td>
+                      <td>2011-05-07</td>
+                      <td>145000</td>
+                  </tr>
+                  <tr>
+                      <td>34</td>
+                      <td>Team Leader</td>
+                      <td>Mark Manson</td>
+                      <td>Compiler Design</td>
+                      <td>2008-10-26</td>
+                      <td>235</td>
+                  </tr>
+                  <tr>
+                      <td>35</td>
+                      <td>Post-Sales support</td>
+                      <td>Sane Guruji</td>
+                      <td>IOT</td>
+                      <td>2011-03-09</td>
+                      <td>324050</td>
+                  </tr>
+                  <tr>
+                      <td>36</td>
+                      <td>Marketing Designer</td>
+                      <td>Mark Manson</td>
+                      <td>Maths</td>
+                      <td>2009-12-09</td>
+                      <td>85675</td>
+                  </tr>
+                  <tr>
+                      <td>37</td>
+                      <td>Information technology</td>
+                      <td>Mark Manson</td>
+                      <td>Compiler Design</td>
+                      <td>2008-12-16</td>
+                      <td>164</td>
+                  </tr>
+                  <tr>
+                      <td>38</td>
+                      <td>Secretary</td>
+                      <td>Mark Manson</td>
+                      <td>GATE</td>
+                      <td>2010-02-12</td>
+                      <td>109850</td>
+                  </tr>
+                  <tr>
+                      <td>39</td>
+                      <td>Financial Controller</td>
+                      <td>Mark Manson</td>
+                      <td>CAT</td>
+                      <td>2009-02-14</td>
+                      <td>452</td>
+                  </tr>
+                  <tr>
+                      <td>40</td>
+                      <td>Information technology</td>
+                      <td>Arundhati Roy</td>
+                      <td>Quants</td>
+                      <td>2008-12-11</td>
+                      <td>130</td>
+                  </tr>
+                  <tr>
+                      <td>41</td>
+                      <td>Director</td>
+                      <td>Dan Brown</td>
+                      <td>Deep Learning</td>
+                      <td>2008-09-26</td>
+                      <td>645750</td>
+                  </tr>
+                  <tr>
+                      <td>42</td>
+                      <td>Support Engineer</td>
+                      <td>Kiran Desai</td>
+                      <td>Junior Technical Author</td>
+                      <td>2011-02-03</td>
+                      <td>234</td>
+                  </tr>
+                  <tr>
+                      <td>43</td>
+                      <td>Software Engineer</td>
+                      <td>Arundhati Roy</td>
+                      <td>MAchine Learning</td>
+                      <td>2011-05-03</td>
+                      <td>163</td>
+                  </tr>
+                  <tr>
+                      <td>44</td>
+                      <td>Support Engineer</td>
+                      <td>John Green</td>
+                      <td>Maths</td>
+                      <td>2009-08-19</td>
+                      <td>575</td>
+                  </tr>
+                  <tr>
+                      <td>45</td>
+                      <td>Developer</td>
+                      <td>Dan Brown</td>
+                      <td>Accountant</td>
+                      <td>2013-08-11</td>
+                      <td>98540</td>
+                  </tr>
+                  <tr>
+                      <td>46</td>
+                      <td>Support Engineer</td>
+                      <td>Mark Manson</td>
+                      <td>Maths</td>
+                      <td>2009-07-07</td>
+                      <td>87</td>
+                  </tr>
+                  <tr>
+                      <td>47</td>
+                      <td>Data Coordinator</td>
+                      <td>Kiran Desai</td>
+                      <td>Junior Technical Author</td>
+                      <td>2012-04-09</td>
+                      <td>138575</td>
+                  </tr>
+                  <tr>
+                      <td>48</td>
+                      <td>Software Engineer</td>
+                      <td>Dan Brown</td>
+                      <td>Deep Learning</td>
+                      <td>2010-01-04</td>
+                      <td>125250</td>
+                  </tr>
+                  <tr>
+                      <td>49</td>
+                      <td>Software Engineer</td>
+                      <td>Mark Manson</td>
+                      <td>Machine Learning</td>
+                      <td>2012-06-01</td>
+                      <td>115000</td>
+                  </tr>
+                  <tr>
+                      <td>50</td>
+                      <td>Junior Information technology</td>
+                      <td>Sane Guruji</td>
+                      <td>Discrete Structures</td>
+                      <td>2013-02-01</td>
+                      <td>75650</td>
+                  </tr>
+                  <tr>
+                      <td>51</td>
+                      <td>Computer Engineering</td>
+                      <td>Dan Brown</td>
+                      <td>46</td>
+                      <td>2011-12-06</td>
+                      <td>145600</td>
+                  </tr>
+                  <tr>
+                      <td>52</td>
+                      <td>Software Engineering</td>
+                      <td>Arundhati Roy</td>
+                      <td>IOT</td>
+                      <td>2011-03-21</td>
+                      <td>356250</td>
+                  </tr>
+                  <tr>
+                      <td>53</td>
+                      <td>Systems Administrator</td>
+                      <td>Arundhati Roy</td>
+                      <td>Maths</td>
+                      <td>2009-02-27</td>
+                      <td>103</td>
+                  </tr>
+                  <tr>
+                      <td>54</td>
+                      <td>Developer</td>
+                      <td>Mark Manson</td>
+                      <td>Compiler Design</td>
+                      <td>2010-07-14</td>
+                      <td>86</td>
+                  </tr>
+                  <tr>
+                      <td>55</td>
+                      <td>Software Engineering</td>
+                      <td>Sane Guruji</td>
+                      <td>IOT</td>
+                      <td>2008-11-13</td>
+                      <td>100</td>
+                  </tr>
+                  <tr>
+                      <td>56</td>
+                      <td>Information technology</td>
+                      <td>Kiran Desai</td>
+                      <td>Physics</td>
+                      <td>2011-06-27</td>
+                      <td>180</td>
+                  </tr>
+                  <tr>
+                      <td>57</td>
+                      <td>Customer Support</td>
+                      <td>Dan Brown</td>
+                      <td>Physics</td>
+                      <td>2011-01-25</td>
+                      <td>112000</td>
+                  </tr>
+              </tbody>
+            </table>
+    </div>
+    </div>
+    <h6 id="footer">Created by - Dhiraj Patil</h6>
+    <script src = "https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src = "https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <script src = "https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+
+    <script src = "./js/app.js"></script>
+    
+</body>
+</html>
